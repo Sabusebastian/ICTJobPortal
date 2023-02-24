@@ -39,6 +39,7 @@ public class LiveTest{
 		AutObj.ClickSubmit();
 		
 		System.out.println("Sabu");
+		System.out.println("sample");
 		
 	}
 /*	
