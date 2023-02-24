@@ -42,27 +42,7 @@ public class LiveTest{
 		System.out.println("sample");
 		
 	}
-/*	
-	
-	@Test(priority=3)
-	public void Automation3Test() throws InterruptedException
-	{
-		Aut3Obj=new Automation3(driver);
 
-		Aut3Obj.PickCountry();
-	}
-	
-	@Test(priority=4)
-	public void Automation4Test() throws InterruptedException
-	{
-		Auto4Obj=new Automation4(driver);
-		
-		Auto4Obj.PickYear();
-		Auto4Obj.PickSelenium();
-		Auto4Obj.PickTestNG();
-
-	}
-	*/
 	
 
 }
