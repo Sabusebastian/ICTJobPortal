@@ -1,0 +1,28 @@
+package com.LiveTest.Pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+public class Automation3 {
+
+	WebDriver driver;
+	
+	@FindBy(xpath="//select[@class='custom-select']")
+	private WebElement DropDown;
+		
+	public Automation3(WebDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void PickCountry() throws InterruptedException
+	{
+		Select select = new Select(DropDown);
+		select.selectByVisibleText("Norway");
+	}
+	
+}
